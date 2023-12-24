@@ -129,6 +129,9 @@ body {
 .third .box {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .third .quote {
@@ -138,8 +141,6 @@ body {
 .third .author {
     font-weight: 700;
     padding: 24px 300px 0px 0px;
-
-    align-self: flex-end;
 }
 
 /* FOOTER */
